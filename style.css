@@ -100,7 +100,32 @@ a{
 }
 
 /* ----- MAIN ----- */
-.main-section{
+.main-section-one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border: 3px solid magenta;
     height: 730px;
+    width: 100%;
+}
+
+.conteiner-flex{
+    border: 3px solid brown;
+    height: 625px;
+    width: 70%;
+    font-size: 0;
+}
+
+.main-pic-one{
+    border: 3px solid brown;
+    height: 100%;
+    width: 60%;
+    display:inline-block;
+}
+
+.main-text-one{
+    border: 3px solid brown;
+    height: 100%;
+    width: 40%;
+    display:inline-block;
 }
