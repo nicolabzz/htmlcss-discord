@@ -2,9 +2,13 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
-/* -- HEADER -- */
+/* ----- FONT ----- */
+/* font-family: 'Roboto', sans-serif; */
+
+/* ----- HEADER ----- */
 header{
     height: 725px;
     border: 2px solid goldenrod;
@@ -12,7 +16,7 @@ header{
     background-size: cover;
 }
 
-/* -- header top -- */
+/* ----- HEADER TOP ----- */
 .header-top-flex{
     display: flex;
     align-items: center;
@@ -33,7 +37,19 @@ header{
     height: 50px;
     background-repeat: no-repeat;
 }
- /* -- headre below -- */
+
+.link-header{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    color: white;
+}
+
+.link-header a{
+    color: white;
+}
+
+/* ----- HEADER BELOW ----- */
 .header-below-flex{
     display: flex;
     align-items: center;
@@ -42,35 +58,44 @@ header{
     height: 625px;
     border: 3px solid purple;
 }
- .text-header-flex{
+
+.text-header-flex{
     text-align: center;
     height: 400px;
     width: 50%;
     font-size: 2rem;
     color: aliceblue;
     border: 2px solid deeppink;
- }
+}
 
- h1{
-    margin-bottom: 50px;
- }
+h1{
+    margin-bottom: 30px;
+}
 
- /* -- buttons -- */
- a{
+p{
+    font-size: 25px;
+    line-height: 40px;
+}
+
+ /* ----- BUTTONS ----- */
+a{
     font-size: 20px;
- }
- .white-button{
+    text-decoration: none;
+}
+
+.button{
+    border-radius: 50px;
+    padding: 15px 20px;
+}
+
+.white{
     color: black;
     background-color: white;
-    border-radius: 50px;
-    padding: 15px 20px;
-    text-decoration: none;
+    font-weight: 500;
 }
 
-.balck-button{
+.balck{
     color: white;
     background-color: BLACK;
-    border-radius: 50px;
-    padding: 15px 20px;
-    text-decoration: none;
 }
+
