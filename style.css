@@ -68,7 +68,7 @@ header{
     /* border: 2px solid deeppink; */
 }
 
-h1{
+.text-header-flex > h1{
     margin-bottom: 30px;
 }
 
@@ -104,28 +104,44 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 3px solid magenta;
+    /* border: 3px solid magenta; */
     height: 730px;
     width: 100%;
 }
 
 .conteiner-flex{
-    border: 3px solid brown;
+    display: flex;
+    /* border: 3px solid brown; */
     height: 625px;
     width: 70%;
     font-size: 0;
 }
 
 .main-pic-one{
-    border: 3px solid brown;
+    /* border: 3px solid rgb(50, 42, 165); */
     height: 100%;
     width: 60%;
     display:inline-block;
 }
 
 .main-text-one{
-    border: 3px solid brown;
+    /* border: 3px solid brown; */
     height: 100%;
-    width: 40%;
+    width: 38%;
     display:inline-block;
+}
+
+.img-block{
+    height: 100%;
+    width: 100%;
+}
+
+.main-text-one > h1{
+    font-size: 60px;
+    margin: 85px 0 20px 0;
+}
+
+.main-text-one > p{
+    font-weight: 400;
+    line-height: 37px;
 }
